@@ -4,10 +4,10 @@
  */
 int main()
 {
-	printf("%lu\n", sizeof(char));
-	printf("%lu\n", sizeof(int));
-	printf("%lu\n", sizeof(float));
-	printf("%lu", sizeof(long));
-	printf("%lu", sizeof(long long));
+	printf("%zu\n", sizeof(char));
+	printf("%zu\n", sizeof(int));
+	printf("%zu\n", sizeof(float));
+	printf("%zu bytes\n", sizeof(long));
+	printf("%zu bytes\n", sizeof(long long));
 	return(0);
 }
