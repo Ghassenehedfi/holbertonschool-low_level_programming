@@ -2,17 +2,15 @@
 /**
  *
  */
-int main(void)
+int void main()
 {
-    int intType;
-    float floatType;
-    long int longinType;
-    long long int longlongintType;
-    char charType;
-	 printf("Size of int: %zu bytes\n", sizeof(intType));
-   	 printf("Size of float: %zu bytes\n", sizeof(floatType));
-    	 printf("sizeof of long: %zu\n", sizeof(longintType));
-   	 printf("Size of char: %zu byte\n", sizeof(charType));
-         printf("size of long long: %zu byte\n", sizeof(longlongintType));
-    return(0);
+	clrscr();
+	printf(“TypettttSize (bytes)”);
+	printf(“nCharacterttt    %d”,sizeof(char));
+	printf(“nIntegertttt    %d”,sizeof(int));
+	printf(“nLong intttt    %d”,sizeof(long int));
+	printf(“nFloattttt    %d”,sizeof(float));
+	printf(“nDoubletttt    %d”,sizeof(double));
+	printf(“nLong doublettt    %d”,sizeof(long double));
+	getch();
 }
