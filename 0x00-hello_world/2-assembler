@@ -1,2 +1,2 @@
 #!/bin/bash
-cc -s $CFILE
+cc -S $CFILE
