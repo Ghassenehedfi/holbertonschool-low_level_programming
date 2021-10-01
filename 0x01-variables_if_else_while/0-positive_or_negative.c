@@ -4,7 +4,7 @@
 #include <locale.h>
 #include <unistd.h>
 /**
-* main - assign a random number 
+* main - assign a random number
 * Return: 0
 */
 int main(void)
