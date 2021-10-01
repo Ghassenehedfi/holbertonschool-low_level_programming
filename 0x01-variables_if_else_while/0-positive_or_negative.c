@@ -3,6 +3,10 @@
 #include <stdlib.h>
 #include <locale.h>
 #include <unistd.h>
+/**
+ * main -  assign a random number to the variable either positive or negative oor zero
+ * Return: 0
+ */
 int main()
 {
     int n;
