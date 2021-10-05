@@ -4,7 +4,7 @@
  * @r: int
  * Return: 0
  */
-int _abs(int r);
+int _abs(int r)
 {
 	if (r > -1)
 {
