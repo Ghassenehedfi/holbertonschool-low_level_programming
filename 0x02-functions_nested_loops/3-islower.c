@@ -1,8 +1,8 @@
 #include "main.h"
 /**
  * _islower - lowercase
- * Return: 0
  * @c - int
+ * Return: 0
  */
 int _islower(int c)
 {
