@@ -1,26 +1,43 @@
-#include "main.h"
+#include"main.h"
 /**
- * times_table - table tme
+ * times_table - time table
  * Return: 0
  */
 void times_table(void)
 
-{
-int i, j, k;
+{  
+int i, j, k, h, e;
 
-while ((i < 9) && (j < 9))
+for (i = 0; i < 10; i++)
 {
-k = 0;
-for (i = 0; i < 9 ; i++)
+for (j = 0; j < 10; j++)
 {
-k += j;
-_putchar(k + '0');
+k = i * j;
+h = k / 10;
+e = k % 10;
+if (j == 0)
+{
+_putchar('0');
+}
+else if (k < 10)
+{
+_putchar(' ');
+_putchar('0' + e);
+}
+else
+{
+_putchar('0' + h);
+_putchar('0' + e);
+}
+if (j < 9)
+{
 _putchar(',');
 _putchar(' ');
 }
-_putchar(k + '0');
-_putchar('$');
-j++;
+else
+{
 _putchar('\n');
+}
+}
 }
 }
