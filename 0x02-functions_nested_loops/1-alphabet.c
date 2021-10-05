@@ -1,4 +1,8 @@
-#include "main.h"
+#include <stdio.h>
+#include <time.h>
+#include <stdlib.h>
+#include <locale.h>
+#include <unistd.h>
 /**
  * main - check the code
  * Return: Alawys 0
