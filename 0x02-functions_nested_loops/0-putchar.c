@@ -1,8 +1,5 @@
-#include <stdio.h>
-#include <time.h>
-#include <stdlib.h>
-#include <locale.h>
-#include <unistd.h>
+#include "main.h"
+#include <_putchar.c>
 /**
  * main - prints
  * Return: 0
@@ -10,6 +7,6 @@
 int main(void)
 
 {
-	printf("_putchar\n");
+	_putchar("_putchar\n");
 	return (0);
-}	
+}
