@@ -2,10 +2,11 @@
 /**
  * _islower - lowercase
  * Return: 0
+ * @c - int
  */
 int _islower(int c)
 {
-	if (c < 'z' && c > 'a')
+	if (c <= 'z' && c >= 'a')
 {
 	return (1);
 	}
