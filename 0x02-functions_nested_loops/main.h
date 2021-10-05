@@ -1,3 +1,5 @@
+#ifndef Ghassen
+#define Ghassen
 #include <stdio.h>
 #include <time.h>
 #include <stdlib.h>
@@ -16,3 +18,4 @@ void times_table(void);
 int add(int, int);
 void print_to_98(int n);
 int main(void);
+#endif
