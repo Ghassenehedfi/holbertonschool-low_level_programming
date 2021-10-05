@@ -1,20 +1,23 @@
-#include <stdio.h>
-#include <time.h>
-#include <stdlib.h>
-#include <locale.h>
-#include <unistd.h>
-#include <main.h>
-void print_alphabet(void);
+#include "main.h"
 /**
  * main - print alphabet
  * Return: 0
  */
 void print_alphabet_x10(void)
-
-
-
-int main(void)
 {
-    print_alphabet_x10();
-    return (0);
+	int i;
+	int n;
+	while (i < 10)
+	{
+	for (n = 'a'; n <= 'z'; n++)
+	putchar(n);
+	putchar ('\n');
+	i++;
+	}
+}
+int main(void)
+
+{
+	print_alphabet_x10();
+	return (0);
 }
