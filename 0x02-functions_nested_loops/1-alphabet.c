@@ -1,8 +1,4 @@
-#include <stdio.h>
-#include <time.h>
-#include <stdlib.h>
-#include <locale.h>
-#include <unistd.h>
+#include "main.h"
 /**
  * main - check the code
  * Return: Alawys 0
@@ -11,7 +7,7 @@ void print_alphabet(void)
 
 {
 	int n;
-	for (n= "a"; n<= "z"; n++)
+	for (n= 'a'; n<= 'z'; n++)
 	putchar(n);
 	putchar ('\n');	
 }
