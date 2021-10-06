@@ -4,14 +4,6 @@
 #include <locale.h>
 #include <unistd.h>
 /**
- *
- */
-#include <stdio.h>
-#include <time.h>
-#include <stdlib.h>
-#include <locale.h>
-#include <unistd.h>
-/**
  * main - fibonacci numbers
  * Return: 0	
  */
