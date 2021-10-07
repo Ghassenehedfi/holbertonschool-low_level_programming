@@ -3,6 +3,7 @@
  * more_numbers - print numbers
  */
 void more_numbers(void)	
+
 {
 
 	int i;
