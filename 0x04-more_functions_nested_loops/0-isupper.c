@@ -1,4 +1,4 @@
-#include "main.h"
+#include "ghassen.h"
 /**
  * _isupper - uppercase
  * @c: int
