@@ -5,6 +5,7 @@
  * Return: 0
  */
 int _isdigit(int c)
+
 {
 	int i;
 
