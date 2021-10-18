@@ -3,12 +3,13 @@
  * _memset - fills
  * @s: char
  * @b: char
- * @n: int
+ * @n: unsigned int
  * Return: 0
  */
-char *_memset(char *s, char b, int n)
+char *_memset(char *s, char b, unsigned int n)
 {
-	int i;
+	unsigned int i;
+
 	for (i = 0; i < n; i++)
 	{
 		s[i] = b;
