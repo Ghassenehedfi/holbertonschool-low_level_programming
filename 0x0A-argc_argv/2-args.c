@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * main : print all arguments
+ * main - print all arguments
  * @argc: int
  * @argv: char
  * Return: int
