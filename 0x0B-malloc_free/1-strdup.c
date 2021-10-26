@@ -10,6 +10,7 @@
 	int i = 0, j = 0;
 
 	char *c;
+
 	if (str == NULL)
 	return (NULL);
 	for (; str[i]; i++)
