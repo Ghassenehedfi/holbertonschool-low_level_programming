@@ -1,7 +1,7 @@
 #include "lists.h"
 /**
  * print_list - linked
- * @h: const
+ * @h: list_t
  * Return: len
  */
 size_t print_list(const list_t *h)
