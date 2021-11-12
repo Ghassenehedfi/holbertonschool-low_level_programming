@@ -1,6 +1,6 @@
 #include "lists.h"
 /**
- * print_list - linked
+ * print_list - priting linked lists
  * @h: list_t
  * Return: size_t
  */
