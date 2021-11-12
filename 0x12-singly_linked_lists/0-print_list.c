@@ -2,7 +2,7 @@
 /**
  * print_list - linked
  * @h: list_t
- * Return: len
+ * Return: size_t
  */
 size_t print_list(const list_t *h)
 {
