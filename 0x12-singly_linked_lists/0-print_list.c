@@ -5,7 +5,9 @@
  * Return: size_t
  */
 size_t print_list(const list_t *h)
+
 {
+
 	int i = 0;
 	size_t len = 0;
 	const list_t *n = h;
